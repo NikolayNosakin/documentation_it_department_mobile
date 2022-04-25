@@ -124,30 +124,15 @@
 	СправочникЗаметки.Родитель КАК Родитель,
 	СправочникЗаметки.ЭтоГруппа КАК ЭтоГруппа,
 	СправочникЗаметки.Наименование КАК Наименование,
-	СправочникЗаметки.Автор КАК Автор,
 	СправочникЗаметки.Предмет КАК Предмет,
 	СправочникЗаметки.Содержание КАК Содержание,
 	СправочникЗаметки.ТекстСодержания КАК ТекстСодержания,
-	СправочникЗаметки.ДляРабочегоСтола КАК ДляРабочегоСтола,
 	СправочникЗаметки.Пометка КАК Пометка,
-	СправочникЗаметки.ДатаИзменения КАК ДатаИзменения,
 	СправочникЗаметки.ПредставлениеПредмета КАК ПредставлениеПредмета,
 	СправочникЗаметки.Предопределенный КАК Предопределенный,
 	СправочникЗаметки.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
 ИЗ
 	Справочник.Заметки КАК СправочникЗаметки</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Пометка</dcssch:dataPath>
-					<dcssch:field>Пометка</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Личная</dcssch:dataPath>
-					<dcssch:field>Личная</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Автор</dcssch:dataPath>
-					<dcssch:field>Автор</dcssch:field>
-				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
 					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
@@ -155,6 +140,14 @@
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Ссылка</dcssch:dataPath>
 					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДляРабочегоСтола</dcssch:dataPath>
+					<dcssch:field>ДляРабочегоСтола</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаИзменения</dcssch:dataPath>
+					<dcssch:field>ДатаИзменения</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
@@ -185,12 +178,8 @@
 					<dcssch:field>ТекстСодержания</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ДляРабочегоСтола</dcssch:dataPath>
-					<dcssch:field>ДляРабочегоСтола</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ДатаИзменения</dcssch:dataPath>
-					<dcssch:field>ДатаИзменения</dcssch:field>
+					<dcssch:dataPath>Пометка</dcssch:dataPath>
+					<dcssch:field>Пометка</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ПредставлениеПредмета</dcssch:dataPath>

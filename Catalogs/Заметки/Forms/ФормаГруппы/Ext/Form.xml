@@ -28,7 +28,7 @@
 			<ExtendedTooltip name="РодительExtendedTooltip" id="11"/>
 		</InputField>
 		<InputField name="Автор" id="7">
-			<DataPath>Объект.Автор</DataPath>
+			<DataPath>1/0:07ccfe87-e1ab-4da7-92cb-a612e0972b0b</DataPath>
 			<Enabled>false</Enabled>
 			<ContextMenu name="АвторКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="АвторExtendedTooltip" id="12"/>

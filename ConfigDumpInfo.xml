@@ -109,11 +109,8 @@
 		<Metadata name="Catalog.Домены.Form.ФормаСписка.Form" id="977955bd-d5bc-48e0-af17-6aa47017cfc7.0" configVersion="316a9c7218e182449984ab15d97828dc00000000"/>
 		<Metadata name="Catalog.Домены.Form.ФормаЭлемента" id="6d0dc079-eac2-444d-aa71-137d7f88a5ab" configVersion="60da4fb310ecf74b8e54b5e3dda21c1900000000"/>
 		<Metadata name="Catalog.Домены.Form.ФормаЭлемента.Form" id="6d0dc079-eac2-444d-aa71-137d7f88a5ab.0" configVersion="139179562fbc8743a73608ce037796fc00000000"/>
-		<Metadata name="Catalog.Заметки" id="3805ee39-a48a-499a-9ef8-9c2a5985404f" configVersion="c48396ef5490a642a90f12acf2e4a35d00000000">
-			<Metadata name="Catalog.Заметки.Attribute.Автор" id="07ccfe87-e1ab-4da7-92cb-a612e0972b0b"/>
+		<Metadata name="Catalog.Заметки" id="3805ee39-a48a-499a-9ef8-9c2a5985404f" configVersion="931aac413aaeda4f8e0f581ffb3723d200000000">
 			<Metadata name="Catalog.Заметки.Attribute.Предмет" id="08c2f92c-eb05-49e7-bfc9-4a89607b9864"/>
-			<Metadata name="Catalog.Заметки.Attribute.ДатаИзменения" id="4cba5a06-1484-4dd1-8e35-2d702c7d96d0"/>
-			<Metadata name="Catalog.Заметки.Attribute.ДляРабочегоСтола" id="5e3ab0a3-c0a6-4f41-85d3-2eede4abb555"/>
 			<Metadata name="Catalog.Заметки.Attribute.Содержание" id="6d751379-89a7-49b5-93e5-578329c63d9c"/>
 			<Metadata name="Catalog.Заметки.Attribute.Пометка" id="a065ffc3-f50b-4a78-9b84-bfc4e5515a4b"/>
 			<Metadata name="Catalog.Заметки.Attribute.ТекстСодержания" id="c3f156ef-947e-4ebb-883f-4f099a116063"/>
@@ -122,14 +119,14 @@
 		<Metadata name="Catalog.Заметки.Form.ФормаГруппы" id="e1b2ccf9-5a8f-4008-86f3-d2c7cf5581d1" configVersion="f76d759623c38d438b2e9e23c952f10100000000"/>
 		<Metadata name="Catalog.Заметки.Form.ФормаГруппы.Form" id="e1b2ccf9-5a8f-4008-86f3-d2c7cf5581d1.0" configVersion="fb84e31a3cd4a54a81c1b09101bc66ec00000000"/>
 		<Metadata name="Catalog.Заметки.Form.ФормаГруппы.Help" id="e1b2ccf9-5a8f-4008-86f3-d2c7cf5581d1.1" configVersion="d179063f520b834f9d10645ce1d46c8900000000"/>
-		<Metadata name="Catalog.Заметки.Form.ФормаСписка" id="86f054af-9a80-4cfc-b180-1be10edbb450" configVersion="dcb9d249adc423449cd31c5d6d57c53600000000"/>
-		<Metadata name="Catalog.Заметки.Form.ФормаСписка.Form" id="86f054af-9a80-4cfc-b180-1be10edbb450.0" configVersion="a12a7fb5821c834eb2bb1303e8ece8e400000000"/>
-		<Metadata name="Catalog.Заметки.Form.ФормаЭлемента" id="d35c51b0-4cb7-4f9c-8aac-6a25a1b49adf" configVersion="22d88bfc4bedf44cb9efbe36e30dc45c00000000"/>
-		<Metadata name="Catalog.Заметки.Form.ФормаЭлемента.Form" id="d35c51b0-4cb7-4f9c-8aac-6a25a1b49adf.0" configVersion="6715b7862bbe344dba3448483f8fe37100000000"/>
+		<Metadata name="Catalog.Заметки.Form.ФормаСписка" id="86f054af-9a80-4cfc-b180-1be10edbb450" configVersion="b9a9e332a1558046a647f88ade31088d00000000"/>
+		<Metadata name="Catalog.Заметки.Form.ФормаСписка.Form" id="86f054af-9a80-4cfc-b180-1be10edbb450.0" configVersion="31d917823c36644d8443bc7c226a585e00000000"/>
+		<Metadata name="Catalog.Заметки.Form.ФормаЭлемента" id="d35c51b0-4cb7-4f9c-8aac-6a25a1b49adf" configVersion="512460f5a4739141bd076a1c82f2746700000000"/>
+		<Metadata name="Catalog.Заметки.Form.ФормаЭлемента.Form" id="d35c51b0-4cb7-4f9c-8aac-6a25a1b49adf.0" configVersion="1424cb8e3cafb2449a840b01c571985a00000000"/>
 		<Metadata name="Catalog.Заметки.Form.ФормаЭлемента.Help" id="d35c51b0-4cb7-4f9c-8aac-6a25a1b49adf.1" configVersion="ca65a782c7b3c5479799d646b343215000000000"/>
 		<Metadata name="Catalog.Заметки.Help" id="3805ee39-a48a-499a-9ef8-9c2a5985404f.1" configVersion="0951655955d29348a8d4a18c2e54e5d900000000"/>
 		<Metadata name="Catalog.Заметки.ManagerModule" id="3805ee39-a48a-499a-9ef8-9c2a5985404f.3" configVersion="00a4a15be5228043ad91b72abb0824bb00000000"/>
-		<Metadata name="Catalog.Заметки.ObjectModule" id="3805ee39-a48a-499a-9ef8-9c2a5985404f.0" configVersion="c56534f1a4b986448775d73036d089d600000000"/>
+		<Metadata name="Catalog.Заметки.ObjectModule" id="3805ee39-a48a-499a-9ef8-9c2a5985404f.0" configVersion="1b61d2de80979a43ba63d8152dff4ae000000000"/>
 		<Metadata name="Catalog.Кассы" id="48244aad-21c5-4694-b207-f940f77d7687" configVersion="0b8c2c91f0576549991179ef80b43f0400000000">
 			<Metadata name="Catalog.Кассы.TabularSection.ФН.Attribute.ФН" id="01bc61df-f0fc-4219-a1c7-cb1d46f265d5"/>
 			<Metadata name="Catalog.Кассы.TabularSection.ФН.Attribute.ДатаУстановки" id="051ed929-af4f-4984-a142-f40b2455209d"/>

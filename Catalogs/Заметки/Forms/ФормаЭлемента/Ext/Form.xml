@@ -120,27 +120,6 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ПараметрыОтображенияExtendedTooltip" id="113"/>
 			<ChildItems>
-				<CheckBoxField name="Личная" id="121">
-					<DataPath>1/0:38053ab6-6116-462f-91ea-ef598bac086e</DataPath>
-					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ЛичнаяКонтекстноеМеню" id="122"/>
-					<ExtendedTooltip name="ЛичнаяРасширеннаяПодсказка" id="123"/>
-				</CheckBoxField>
-				<CheckBoxField name="ОтображатьНаРабочемСтоле" id="80">
-					<DataPath>Объект.ДляРабочегоСтола</DataPath>
-					<Visible>false</Visible>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отображать на рабочем столе</v8:content>
-						</v8:item>
-					</Title>
-					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ОтображатьНаРабочемСтолеКонтекстноеМеню" id="81"/>
-					<ExtendedTooltip name="ОтображатьНаРабочемСтолеExtendedTooltip" id="114"/>
-				</CheckBoxField>
 				<InputField name="Пометка" id="82">
 					<DataPath>Объект.Пометка</DataPath>
 					<Title>
@@ -175,64 +154,6 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ИнформацияОбАвторе" id="91">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Информация об авторе</v8:content>
-				</v8:item>
-			</Title>
-			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ИнформацияОбАвтореExtendedTooltip" id="117"/>
-			<ChildItems>
-				<LabelDecoration name="НадписьАвтор" id="92">
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Автор:</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="НадписьАвторКонтекстноеМеню" id="93"/>
-					<ExtendedTooltip name="НадписьАвторExtendedTooltip" id="118"/>
-				</LabelDecoration>
-				<LabelDecoration name="Автор" id="94">
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Автор</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Автор заметки</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Hyperlink>true</Hyperlink>
-					<ContextMenu name="АвторКонтекстноеМеню" id="95"/>
-					<ExtendedTooltip name="АвторExtendedTooltip" id="119"/>
-					<Events>
-						<Event name="Click">АвторНажатие</Event>
-					</Events>
-				</LabelDecoration>
-			</ChildItems>
-		</UsualGroup>
-		<LabelDecoration name="ДатаЗаметки" id="103">
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<TextColor>style:ПоясняющийТекст</TextColor>
-			<Title formatted="false">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Записана: 25 ноября 2011 г.</v8:content>
-				</v8:item>
-			</Title>
-			<ContextMenu name="ДатаЗаметкиКонтекстноеМеню" id="104"/>
-			<ExtendedTooltip name="ДатаЗаметкиExtendedTooltip" id="120"/>
-		</LabelDecoration>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
