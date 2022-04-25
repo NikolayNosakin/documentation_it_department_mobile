@@ -415,10 +415,10 @@
 		<Metadata name="Catalog.УчетныеДанныеСервисов.Form.ФормаСписка.Form" id="a96249d6-4572-4275-9269-7b0f35aea18c.0" configVersion="ff095282a7eede409553fe50082b8dc700000000"/>
 		<Metadata name="Catalog.УчетныеДанныеСервисов.Form.ФормаЭлемента" id="f2d36336-c4c4-4206-a2b0-3dd822dc7fe0" configVersion="f99bd3390b849a42a5dca0be42ef1db200000000"/>
 		<Metadata name="Catalog.УчетныеДанныеСервисов.Form.ФормаЭлемента.Form" id="f2d36336-c4c4-4206-a2b0-3dd822dc7fe0.0" configVersion="617191c805efe24187d39d5e6a917a7b00000000"/>
-		<Metadata name="CommonForm.ВходПоПаролю" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620" configVersion="c971d9bcf011fd49995eb33fc087636300000000"/>
-		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="b816fe09e2f759489f125fa0ec9e6d3000000000"/>
-		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="46a370254684f148b0ba65869f784ae200000000"/>
-		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="4d4fc507a638234983c7c9e0a4deacc500000000"/>
+		<Metadata name="CommonForm.ВходПоПаролю" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620" configVersion="6c04fc7313cee54b8ed3f8eb6dd4539e00000000"/>
+		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="20cbebe66a10af479d175dd01a1f806300000000"/>
+		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="ca9a0ebde6ffa842851586fa98b6976700000000"/>
+		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="fc6f39f9263f184f9b5de7c6bfb4ef9f00000000"/>
 		<Metadata name="CommonForm.РабочийСтол" id="7258d884-f592-4e9f-ad44-7b92f6a84706" configVersion="bfe181733b7bcf46ad2f74a695c5c2e700000000"/>
 		<Metadata name="CommonForm.РабочийСтол.Form" id="7258d884-f592-4e9f-ad44-7b92f6a84706.0" configVersion="21c69d79dc06c742a01d29467278917e00000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации" id="413af10e-3ebf-42db-9927-0c4e1362c3a7" configVersion="3ba532c5b2aab74bb75014d6703a488000000000"/>
