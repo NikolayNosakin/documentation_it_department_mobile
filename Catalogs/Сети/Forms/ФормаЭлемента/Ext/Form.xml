@@ -91,6 +91,7 @@
 							<ChildItems>
 								<LabelField name="ЛокальныеIPНомерСтроки" id="87">
 									<DataPath>Объект.ЛокальныеIP.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ЛокальныеIPНомерСтрокиКонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="ЛокальныеIPНомерСтрокиРасширеннаяПодсказка" id="89"/>
@@ -163,6 +164,7 @@
 							<ChildItems>
 								<LabelField name="ВнешниеIPНомерСтроки" id="62">
 									<DataPath>Объект.ВнешниеIP.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ВнешниеIPНомерСтрокиКонтекстноеМеню" id="63"/>
 									<ExtendedTooltip name="ВнешниеIPНомерСтрокиРасширеннаяПодсказка" id="64"/>
@@ -235,6 +237,7 @@
 							<ChildItems>
 								<LabelField name="DNSНомерСтроки" id="117">
 									<DataPath>Объект.DNS.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="DNSНомерСтрокиКонтекстноеМеню" id="118"/>
 									<ExtendedTooltip name="DNSНомерСтрокиРасширеннаяПодсказка" id="119"/>

@@ -128,6 +128,7 @@
 							<ChildItems>
 								<LabelField name="СУБДНомерСтроки" id="54">
 									<DataPath>Объект.СУБД.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СУБДНомерСтрокиКонтекстноеМеню" id="55"/>
 									<ExtendedTooltip name="СУБДНомерСтрокиРасширеннаяПодсказка" id="56"/>
@@ -224,6 +225,7 @@
 							<ChildItems>
 								<LabelField name="СерверIPНомерСтроки" id="85">
 									<DataPath>Объект.Сервер.IP.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СерверIPНомерСтрокиКонтекстноеМеню" id="86"/>
 									<ExtendedTooltip name="СерверIPНомерСтрокиРасширеннаяПодсказка" id="87"/>

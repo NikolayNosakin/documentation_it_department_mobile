@@ -49,6 +49,15 @@
 				<Event name="OnChange">ТипПодключенияПриИзменении</Event>
 			</Events>
 		</InputField>
+		<CheckBoxField name="Расшарен" id="52">
+			<DataPath>Объект.Расшарен</DataPath>
+			<CheckBoxType>CheckBox</CheckBoxType>
+			<ContextMenu name="РасшаренКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="РасшаренРасширеннаяПодсказка" id="54"/>
+			<Events>
+				<Event name="OnChange">ТипПодключенияПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
 		<InputField name="IP" id="10">
 			<DataPath>Объект.IP</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -130,6 +139,7 @@
 							<ChildItems>
 								<LabelField name="МоделиКартриджейНомерСтроки" id="32">
 									<DataPath>Объект.МоделиКартриджей.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="МоделиКартриджейНомерСтрокиКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="МоделиКартриджейНомерСтрокиРасширеннаяПодсказка" id="34"/>

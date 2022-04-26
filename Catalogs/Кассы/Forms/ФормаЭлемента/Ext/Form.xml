@@ -132,6 +132,7 @@
 							<ChildItems>
 								<LabelField name="ФННомерСтроки" id="39">
 									<DataPath>Объект.ФН.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ФННомерСтрокиКонтекстноеМеню" id="40"/>
 									<ExtendedTooltip name="ФННомерСтрокиРасширеннаяПодсказка" id="41"/>
@@ -142,15 +143,38 @@
 									<ContextMenu name="ФНФНКонтекстноеМеню" id="43"/>
 									<ExtendedTooltip name="ФНФНРасширеннаяПодсказка" id="44"/>
 								</InputField>
-								<InputField name="ФНДатаУстановки" id="45">
-									<DataPath>Объект.ФН.ДатаУстановки</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ФНДатаУстановкиКонтекстноеМеню" id="46"/>
-									<ExtendedTooltip name="ФНДатаУстановкиРасширеннаяПодсказка" id="47"/>
-									<Events>
-										<Event name="OnChange">ФНДатаУстановкиПриИзменении</Event>
-									</Events>
-								</InputField>
+								<ColumnGroup name="ФНГруппа1" id="91">
+									<ExtendedTooltip name="ФНГруппа1РасширеннаяПодсказка" id="92"/>
+									<ChildItems>
+										<InputField name="ФНДатаУстановки" id="45">
+											<DataPath>Объект.ФН.ДатаУстановки</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Установлен</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ФНДатаУстановкиКонтекстноеМеню" id="46"/>
+											<ExtendedTooltip name="ФНДатаУстановкиРасширеннаяПодсказка" id="47"/>
+											<Events>
+												<Event name="OnChange">ФНДатаУстановкиПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="ФНДатаОкончанияРаботы" id="85">
+											<DataPath>Объект.ФН.ДатаОкончанияРаботы</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Окончание</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ФНДатаОкончанияРаботыКонтекстноеМеню" id="86"/>
+											<ExtendedTooltip name="ФНДатаОкончанияРаботыРасширеннаяПодсказка" id="87"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
 								<InputField name="ФНКоличествоМесяцев" id="48">
 									<DataPath>Объект.ФН.КоличествоМесяцев</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -159,12 +183,6 @@
 									<Events>
 										<Event name="OnChange">ФНКоличествоМесяцевПриИзменении</Event>
 									</Events>
-								</InputField>
-								<InputField name="ФНДатаОкончанияРаботы" id="85">
-									<DataPath>Объект.ФН.ДатаОкончанияРаботы</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ФНДатаОкончанияРаботыКонтекстноеМеню" id="86"/>
-									<ExtendedTooltip name="ФНДатаОкончанияРаботыРасширеннаяПодсказка" id="87"/>
 								</InputField>
 								<CheckBoxField name="ФНЗаменён" id="88">
 									<DataPath>Объект.ФН.Заменён</DataPath>
@@ -230,6 +248,7 @@
 							<ChildItems>
 								<LabelField name="УчетныеДанныеНомерСтроки" id="69">
 									<DataPath>Объект.УчетныеДанные.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="УчетныеДанныеНомерСтрокиКонтекстноеМеню" id="70"/>
 									<ExtendedTooltip name="УчетныеДанныеНомерСтрокиРасширеннаяПодсказка" id="71"/>

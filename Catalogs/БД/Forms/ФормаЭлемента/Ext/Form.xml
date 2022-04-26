@@ -273,6 +273,7 @@
 							<ChildItems>
 								<LabelField name="ПользователиБДНомерСтроки" id="57">
 									<DataPath>Объект.ПользователиБД.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПользователиБДНомерСтрокиКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="ПользователиБДНомерСтрокиРасширеннаяПодсказка" id="59"/>
@@ -352,6 +353,7 @@
 							<ChildItems>
 								<LabelField name="ПользователиХранилищаНомерСтроки" id="84">
 									<DataPath>Объект.ПользователиХранилища.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПользователиХранилищаНомерСтрокиКонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="ПользователиХранилищаНомерСтрокиРасширеннаяПодсказка" id="86"/>

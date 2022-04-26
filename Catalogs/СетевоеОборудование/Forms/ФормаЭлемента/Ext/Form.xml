@@ -112,6 +112,7 @@
 							<ChildItems>
 								<LabelField name="IPНомерСтроки" id="33">
 									<DataPath>Объект.IP.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="IPНомерСтрокиКонтекстноеМеню" id="34"/>
 									<ExtendedTooltip name="IPНомерСтрокиРасширеннаяПодсказка" id="35"/>
@@ -195,6 +196,7 @@
 							<ChildItems>
 								<LabelField name="УчетныеДанныеНомерСтроки" id="60">
 									<DataPath>Объект.УчетныеДанные.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="УчетныеДанныеНомерСтрокиКонтекстноеМеню" id="61"/>
 									<ExtendedTooltip name="УчетныеДанныеНомерСтрокиРасширеннаяПодсказка" id="62"/>

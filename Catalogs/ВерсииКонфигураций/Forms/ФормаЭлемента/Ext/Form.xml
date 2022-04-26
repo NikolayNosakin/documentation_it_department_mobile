@@ -39,12 +39,20 @@
 			<ExtendedTooltip name="ДатаВыходаРасширеннаяПодсказка" id="40"/>
 		</InputField>
 		<UsualGroup name="Группа2" id="44">
+			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="45"/>
 			<ChildItems>
 				<InputField name="ОбновлениеДляВерсий" id="41">
 					<DataPath>ОбновлениеДляВерсий</DataPath>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>true</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ClearButton>false</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>false</OpenButton>
+					<CreateButton>false</CreateButton>
 					<ContextMenu name="ОбновлениеДляВерсийКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="ОбновлениеДляВерсийРасширеннаяПодсказка" id="43"/>
 					<Events>

@@ -92,18 +92,6 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="d04da7d9-c5c6-42cc-bf06-08634528829f">
-				<Properties>
-					<Name>Коммутатор</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Коммутатор</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="1eb5b3aa-329c-4214-a2e6-9fa00a598505">
 				<Properties>
 					<Name>Маршрутизатор</Name>
@@ -111,6 +99,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Маршрутизатор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d04da7d9-c5c6-42cc-bf06-08634528829f">
+				<Properties>
+					<Name>Коммутатор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Коммутатор</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

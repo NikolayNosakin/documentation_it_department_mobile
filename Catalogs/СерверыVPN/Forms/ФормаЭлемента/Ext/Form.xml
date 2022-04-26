@@ -96,6 +96,7 @@
 							<ChildItems>
 								<LabelField name="ПараметрыНомерСтроки" id="65">
 									<DataPath>Объект.Параметры.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПараметрыНомерСтрокиКонтекстноеМеню" id="66"/>
 									<ExtendedTooltip name="ПараметрыНомерСтрокиРасширеннаяПодсказка" id="67"/>
@@ -163,6 +164,7 @@
 							<ChildItems>
 								<LabelField name="УчетныеДанныеНомерСтроки" id="29">
 									<DataPath>Объект.УчетныеДанные.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="УчетныеДанныеНомерСтрокиКонтекстноеМеню" id="30"/>
 									<ExtendedTooltip name="УчетныеДанныеНомерСтрокиРасширеннаяПодсказка" id="31"/>

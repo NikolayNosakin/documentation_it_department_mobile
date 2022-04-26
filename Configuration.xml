@@ -256,7 +256,6 @@
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
 			<CommonForm>ВходПоПаролю</CommonForm>
 			<Catalog>БД</Catalog>
-			<Catalog>Клиенты</Catalog>
 			<Catalog>ВерсииКонфигураций</Catalog>
 			<Catalog>ВерсииПлатформы1С</Catalog>
 			<Catalog>Видеорегистраторы</Catalog>
@@ -265,6 +264,7 @@
 			<Catalog>Домены</Catalog>
 			<Catalog>Заметки</Catalog>
 			<Catalog>Кассы</Catalog>
+			<Catalog>Клиенты</Catalog>
 			<Catalog>Конфигурации</Catalog>
 			<Catalog>Лицензии</Catalog>
 			<Catalog>Номенклатура</Catalog>
