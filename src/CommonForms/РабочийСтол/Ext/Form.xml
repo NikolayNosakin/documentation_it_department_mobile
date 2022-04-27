@@ -227,6 +227,11 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа15РасширеннаяПодсказка" id="92"/>
 							<ChildItems>
+								<Button name="Клиенты" id="189">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Клиенты</CommandName>
+									<ExtendedTooltip name="КлиентыРасширеннаяПодсказка" id="190"/>
+								</Button>
 								<LabelDecoration name="Декорация2" id="58">
 									<Title formatted="false">
 										<v8:item>
@@ -243,6 +248,7 @@
 									<ExtendedTooltip name="ЗаметкиРасширеннаяПодсказка" id="53"/>
 								</Button>
 								<LabelDecoration name="Декорация10" id="88">
+									<Visible>false</Visible>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -996,6 +1002,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Лицензии</Action>
+		</Command>
+		<Command name="Клиенты" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиенты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиенты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Клиенты</Action>
 		</Command>
 	</Commands>
 </Form>
