@@ -420,8 +420,8 @@
 		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="20cbebe66a10af479d175dd01a1f806300000000"/>
 		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="c85a61ce491cae4a86bd5df60f36d33900000000"/>
 		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="5be9b0a452303841ada34f76dd55063d00000000"/>
-		<Metadata name="CommonForm.РабочийСтол" id="7258d884-f592-4e9f-ad44-7b92f6a84706" configVersion="c6388b7a004aff428dc9c790d8073de900000000"/>
-		<Metadata name="CommonForm.РабочийСтол.Form" id="7258d884-f592-4e9f-ad44-7b92f6a84706.0" configVersion="ab74b53e52b96b4e909c95d70248ac9700000000"/>
+		<Metadata name="CommonForm.РабочийСтол" id="7258d884-f592-4e9f-ad44-7b92f6a84706" configVersion="6e57ded2108fa746bf9bd4b88cdde43f00000000"/>
+		<Metadata name="CommonForm.РабочийСтол.Form" id="7258d884-f592-4e9f-ad44-7b92f6a84706.0" configVersion="042a699062e45e4aba415e14c034301b00000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации" id="413af10e-3ebf-42db-9927-0c4e1362c3a7" configVersion="3ba532c5b2aab74bb75014d6703a488000000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации.Form" id="413af10e-3ebf-42db-9927-0c4e1362c3a7.0" configVersion="da874fb02af08e4dbde0f79652b5151700000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации.Help" id="413af10e-3ebf-42db-9927-0c4e1362c3a7.1" configVersion="8c5411803656a14b83f89df83aabb59000000000"/>

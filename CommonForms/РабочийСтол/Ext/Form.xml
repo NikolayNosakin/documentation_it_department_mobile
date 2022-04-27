@@ -184,6 +184,21 @@
 							<CommandName>Form.Command.СУБД</CommandName>
 							<ExtendedTooltip name="СУБДРасширеннаяПодсказка" id="10"/>
 						</Button>
+						<LabelDecoration name="Декорация17" id="149">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>|</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация17КонтекстноеМеню" id="150"/>
+							<ExtendedTooltip name="Декорация17РасширеннаяПодсказка" id="151"/>
+						</LabelDecoration>
+						<Button name="Создание_v8i" id="147">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Создание_v8i</CommandName>
+							<ExtendedTooltip name="Создание_v8iРасширеннаяПодсказка" id="148"/>
+						</Button>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -212,11 +227,6 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа15РасширеннаяПодсказка" id="92"/>
 							<ChildItems>
-								<Button name="Клиенты" id="23">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.Клиенты</CommandName>
-									<ExtendedTooltip name="КлиентыРасширеннаяПодсказка" id="24"/>
-								</Button>
 								<LabelDecoration name="Декорация2" id="58">
 									<Title formatted="false">
 										<v8:item>
@@ -227,10 +237,10 @@
 									<ContextMenu name="Декорация2КонтекстноеМеню" id="59"/>
 									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="60"/>
 								</LabelDecoration>
-								<Button name="УчетныеДанные" id="83">
+								<Button name="Заметки" id="52">
 									<Type>UsualButton</Type>
-									<CommandName>Form.Command.УчетныеДанные</CommandName>
-									<ExtendedTooltip name="УчетныеДанныеРасширеннаяПодсказка" id="84"/>
+									<CommandName>Form.Command.Заметки</CommandName>
+									<ExtendedTooltip name="ЗаметкиРасширеннаяПодсказка" id="53"/>
 								</Button>
 								<LabelDecoration name="Декорация10" id="88">
 									<Title formatted="false">
@@ -281,6 +291,11 @@
 									<ContextMenu name="Декорация9КонтекстноеМеню" id="86"/>
 									<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="87"/>
 								</LabelDecoration>
+								<Button name="Домены" id="21">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Домены</CommandName>
+									<ExtendedTooltip name="ДоменыРасширеннаяПодсказка" id="22"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа22" id="105">
@@ -290,10 +305,10 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа22РасширеннаяПодсказка" id="106"/>
 							<ChildItems>
-								<Button name="Домены" id="21">
+								<Button name="УчетныеДанные" id="83">
 									<Type>UsualButton</Type>
-									<CommandName>Form.Command.Домены</CommandName>
-									<ExtendedTooltip name="ДоменыРасширеннаяПодсказка" id="22"/>
+									<CommandName>Form.Command.УчетныеДанные</CommandName>
+									<ExtendedTooltip name="УчетныеДанныеРасширеннаяПодсказка" id="84"/>
 								</Button>
 								<LabelDecoration name="Декорация11" id="109">
 									<Title formatted="false">
@@ -305,12 +320,13 @@
 									<ContextMenu name="Декорация11КонтекстноеМеню" id="110"/>
 									<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="111"/>
 								</LabelDecoration>
-								<Button name="Заметки" id="52">
+								<Button name="Лицензии" id="168">
 									<Type>UsualButton</Type>
-									<CommandName>Form.Command.Заметки</CommandName>
-									<ExtendedTooltip name="ЗаметкиРасширеннаяПодсказка" id="53"/>
+									<CommandName>Form.Command.Лицензии</CommandName>
+									<ExtendedTooltip name="ЛицензииРасширеннаяПодсказка" id="169"/>
 								</Button>
 								<LabelDecoration name="Декорация7" id="73">
+									<Visible>false</Visible>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -323,6 +339,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа16" id="93">
+							<Group>AlwaysHorizontal</Group>
 							<VerticalAlign>Center</VerticalAlign>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -360,6 +377,142 @@
 						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="Группа13" id="152">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительно</v8:content>
+						</v8:item>
+					</Title>
+					<Behavior>Collapsible</Behavior>
+					<Collapsed>true</Collapsed>
+					<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="153"/>
+					<ChildItems>
+						<UsualGroup name="Группа14" id="166">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>1С</v8:content>
+								</v8:item>
+							</Title>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="167"/>
+							<ChildItems>
+								<UsualGroup name="Группа17" id="174">
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа17РасширеннаяПодсказка" id="175"/>
+									<ChildItems>
+										<Button name="Конфигурации" id="164">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.Конфигурации</CommandName>
+											<ExtendedTooltip name="КонфигурацииРасширеннаяПодсказка" id="165"/>
+										</Button>
+										<LabelDecoration name="Декорация18" id="176">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>|</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация18КонтекстноеМеню" id="177"/>
+											<ExtendedTooltip name="Декорация18РасширеннаяПодсказка" id="178"/>
+										</LabelDecoration>
+										<Button name="ВерсииКонфигураций" id="156">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ВерсииКонфигураций</CommandName>
+											<ExtendedTooltip name="ВерсииКонфигурацийРасширеннаяПодсказка" id="157"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<Button name="ВерсииПлатформы1С" id="158">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВерсииПлатформы1С</CommandName>
+									<ExtendedTooltip name="ВерсииПлатформы1СРасширеннаяПодсказка" id="159"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа18" id="179">
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа18РасширеннаяПодсказка" id="180"/>
+							<ChildItems>
+								<Button name="Номенклатура" id="154">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Номенклатура</CommandName>
+									<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="155"/>
+								</Button>
+								<LabelDecoration name="Декорация19" id="183">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>|</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация19КонтекстноеМеню" id="184"/>
+									<ExtendedTooltip name="Декорация19РасширеннаяПодсказка" id="185"/>
+								</LabelDecoration>
+								<Button name="Сервисы" id="172">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Сервисы</CommandName>
+									<ExtendedTooltip name="СервисыРасширеннаяПодсказка" id="173"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа20" id="181">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа20РасширеннаяПодсказка" id="182"/>
+							<ChildItems>
+								<Button name="ВидыУстройств" id="162">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВидыУстройств</CommandName>
+									<ExtendedTooltip name="ВидыУстройствРасширеннаяПодсказка" id="163"/>
+								</Button>
+								<LabelDecoration name="Декорация20" id="186">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>|</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация20КонтекстноеМеню" id="187"/>
+									<ExtendedTooltip name="Декорация20РасширеннаяПодсказка" id="188"/>
+								</LabelDecoration>
+								<Button name="ВидыКомплектующих" id="160">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВидыКомплектующих</CommandName>
+									<ExtendedTooltip name="ВидыКомплектующихРасширеннаяПодсказка" id="161"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Button name="ОперационныеСистемы" id="170">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОперационныеСистемы</CommandName>
+							<ExtendedTooltip name="ОперационныеСистемыРасширеннаяПодсказка" id="171"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа11" id="143">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доп. приложения</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="144"/>
+			<ChildItems>
+				<Button name="ГенераторПаролей" id="145">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ГенераторПаролей</CommandName>
+					<ExtendedTooltip name="ГенераторПаролейРасширеннаяПодсказка" id="146"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа6" id="141">
@@ -528,21 +681,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Домены</Action>
-		</Command>
-		<Command name="Клиенты" id="8">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Клиенты</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Клиенты</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>Клиенты</Action>
 		</Command>
 		<Command name="Номенклатура" id="9">
 			<Title>
@@ -738,6 +876,126 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВвестиПарольДляРасшифровкиПаролей</Action>
+		</Command>
+		<Command name="ГенераторПаролей" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Генератор паролей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Генератор паролей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ГенераторПаролей</Action>
+		</Command>
+		<Command name="Создание_v8i" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание v8i</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание v8i</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Создание_v8i</Action>
+		</Command>
+		<Command name="ВерсииКонфигураций" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версии конфигураций</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версии конфигураций</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВерсииКонфигураций</Action>
+		</Command>
+		<Command name="ВерсииПлатформы1С" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версии платформы1 С</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версии платформы1 С</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВерсииПлатформы1С</Action>
+		</Command>
+		<Command name="ВидыКомплектующих" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды комплектующих</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды комплектующих</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВидыКомплектующих</Action>
+		</Command>
+		<Command name="ВидыУстройств" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды устройств</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды устройств</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВидыУстройств</Action>
+		</Command>
+		<Command name="Конфигурации" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конфигурации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Конфигурации</Action>
+		</Command>
+		<Command name="Лицензии" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Лицензии</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Лицензии</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Лицензии</Action>
 		</Command>
 	</Commands>
 </Form>
