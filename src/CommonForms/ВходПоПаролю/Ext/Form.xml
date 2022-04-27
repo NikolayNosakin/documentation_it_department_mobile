@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Авторизация</v8:content>
+		</v8:item>
+	</Title>
 	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
@@ -22,13 +28,13 @@
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
 	<ShowTitle>false</ShowTitle>
-	<ShowCloseButton>false</ShowCloseButton>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
 		<ChildItems>
 			<Button name="ФормаЗакрыть" id="10">
 				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
 				<CommandName>Form.StandardCommand.Close</CommandName>
 				<Title>
 					<v8:item>
@@ -57,6 +63,9 @@
 					<PasswordMode>true</PasswordMode>
 					<ContextMenu name="ПарольКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">ПарольПриИзменении</Event>
+					</Events>
 				</InputField>
 				<Button name="Вход" id="4">
 					<Type>UsualButton</Type>
@@ -68,6 +77,13 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="Выход" id="12">
+			<Type>UsualButton</Type>
+			<Width>20</Width>
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<CommandName>Form.Command.Выход</CommandName>
+			<ExtendedTooltip name="ВыходРасширеннаяПодсказка" id="13"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Пароль" id="1">
@@ -127,20 +143,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Выход</Action>
-		</Command>
-		<Command name="Закрыть" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Закрыть</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Закрыть</v8:content>
-				</v8:item>
-			</ToolTip>
 		</Command>
 	</Commands>
 </Form>

@@ -416,12 +416,12 @@
 		<Metadata name="Catalog.УчетныеДанныеСервисов.Form.ФормаСписка.Form" id="a96249d6-4572-4275-9269-7b0f35aea18c.0" configVersion="ff095282a7eede409553fe50082b8dc700000000"/>
 		<Metadata name="Catalog.УчетныеДанныеСервисов.Form.ФормаЭлемента" id="f2d36336-c4c4-4206-a2b0-3dd822dc7fe0" configVersion="f99bd3390b849a42a5dca0be42ef1db200000000"/>
 		<Metadata name="Catalog.УчетныеДанныеСервисов.Form.ФормаЭлемента.Form" id="f2d36336-c4c4-4206-a2b0-3dd822dc7fe0.0" configVersion="617191c805efe24187d39d5e6a917a7b00000000"/>
-		<Metadata name="CommonForm.ВходПоПаролю" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620" configVersion="6c04fc7313cee54b8ed3f8eb6dd4539e00000000"/>
-		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="20cbebe66a10af479d175dd01a1f806300000000"/>
+		<Metadata name="CommonForm.ВходПоПаролю" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620" configVersion="8928a01241e6d348bd2eee5f97521a2800000000"/>
+		<Metadata name="CommonForm.ВходПоПаролю.Form" id="819e80d4-ba0c-4b11-abe8-4b63de0c4620.0" configVersion="eb71ce2b7b72b849bbbf3388ad70e25800000000"/>
 		<Metadata name="CommonForm.Настройки" id="826c445e-3878-4bd1-9481-e6234b9e2c83" configVersion="c85a61ce491cae4a86bd5df60f36d33900000000"/>
 		<Metadata name="CommonForm.Настройки.Form" id="826c445e-3878-4bd1-9481-e6234b9e2c83.0" configVersion="5be9b0a452303841ada34f76dd55063d00000000"/>
-		<Metadata name="CommonForm.РабочийСтол" id="7258d884-f592-4e9f-ad44-7b92f6a84706" configVersion="3b76bdd4952de241badaba593de18bda00000000"/>
-		<Metadata name="CommonForm.РабочийСтол.Form" id="7258d884-f592-4e9f-ad44-7b92f6a84706.0" configVersion="cefa192e6ef2f84580d2a74e3e09886100000000"/>
+		<Metadata name="CommonForm.РабочийСтол" id="7258d884-f592-4e9f-ad44-7b92f6a84706" configVersion="34216b82bb6a5c40a9ca51a149e5e5c900000000"/>
+		<Metadata name="CommonForm.РабочийСтол.Form" id="7258d884-f592-4e9f-ad44-7b92f6a84706.0" configVersion="a46965684f65124c8caff9957956f97600000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации" id="413af10e-3ebf-42db-9927-0c4e1362c3a7" configVersion="3ba532c5b2aab74bb75014d6703a488000000000"/>
 		<Metadata name="CommonForm.ЯДФормаАвторизации.Form" id="413af10e-3ebf-42db-9927-0c4e1362c3a7.0" configVersion="da874fb02af08e4dbde0f79652b5151700000000"/>
 		<Metadata name="CommonModule.nns_ОбщегоНазначения" id="ba96451b-345b-4662-8a16-d912f91319ae" configVersion="c93a8ce9d9b39a4385812f1734433cec00000000"/>
