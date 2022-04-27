@@ -22,7 +22,7 @@
 			<Comment>NNS</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm>DataProcessor.ГенераторПаролей.Form.ФормаУФ</DefaultForm>
-			<AuxiliaryForm>DataProcessor.ГенераторПаролей.Form.ФормаОП</AuxiliaryForm>
+			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
 			<Explanation/>
@@ -357,7 +357,6 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаУФ</Form>
-			<Form>ФормаОП</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

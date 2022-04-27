@@ -38,7 +38,7 @@
 			<ContextMenu name="ТипКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="12"/>
 			<Events>
-				<Event name="OnChange">ТипПриИзменении</Event>
+				<Event name="OnChange">ТипПодключенияПриИзменении</Event>
 			</Events>
 		</InputField>
 		<InputField name="IP" id="13">
